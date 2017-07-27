@@ -1,14 +1,49 @@
 #Header {
+  /* These are the Back styles*/
   display: flex;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0;
+  position: fixed;
+  z-index: 5;
+
+  /* These are the Front styles */
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
+  /* These are the Back styles*/
+  padding: 20px 10px;
+  /* These are the Front styles */
   color: MediumAquamarine;
 }
 
 nav {
+  /* These are the Back styles*/
   display: inline-block;
+  padding: 20px 10px;
+
+
+}
+
+nav a{
+  /* These are the Back styles*/
+  padding: 20px 10px;
+
+}
+
+h1 {
+  /* These are the Back styles*/
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  width: 500px;
+  height: 300px;
+
+  /* This following is the Front Display Styles */
+
+
 }
