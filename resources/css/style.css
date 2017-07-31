@@ -1,12 +1,58 @@
-#Header {
+nav a {
+  /* These are the Back styles*/
+  display: inline-block;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  /* These are the Back styles*/
+  display: inline-block;
+  position: relative;
+  border: 0.5px solid black;
+  margin: 0;
+  padding: 0;
+  /* This following is the Front Display Styles */
+  font-size: 40px;
+}
+
+h2 {
+
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.Story {
+  border: 1px solid black;
+  /* This following is the Front Display Styles */
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+ .imglogo {
+  border: 1px solid black;
+  padding-left: 20px;
+
+}
+.logo {
+  /* These are the Back styles*/
+  /* These are the Front styles */
+  color: MediumAquamarine;
+}
+
+#Top {
   /* These are the Back styles*/
   display: flex;
-  border: 1px solid black;
-  padding: 15px;
-  margin: 0;
   position: fixed;
+  justify-content: space-between;
   z-index: 5;
-
+    margin: 0 auto;
   /* These are the Front styles */
   font-family: Verdana;
   font-size: 14px;
@@ -14,36 +60,85 @@
   background-color: white;
 }
 
-.logo {
-  /* These are the Back styles*/
-  padding: 20px 10px;
-  /* These are the Front styles */
-  color: MediumAquamarine;
-}
-
-nav {
-  /* These are the Back styles*/
-  display: inline-block;
-  padding: 20px 10px;
-
-
-}
-
-nav a{
-  /* These are the Back styles*/
-  padding: 20px 10px;
-
-}
-
-h1 {
-  /* These are the Back styles*/
-  display: inline-block;
+#Allnews {
   position: relative;
-  top: 80px;
-  width: 500px;
+  display: flex;
+  top:100px;
+  border: 1px solid black;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.large {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  border: 0.5px solid black;
+  width: 630px;
+
+}
+
+#Headnews {
+  border: 1px solid black;
+  width: 630px;
+}
+
+#Subnews1 {
+  border: 2px solid black;
+  width:
+}
+
+#Subnews2 {
+  border: 2px solid black;
+}
+
+#Story1 {
+  background-image: url("../images/img-story-2.png");
+  width: 300px;
   height: 300px;
+  display: flex;
+  border: 0.5px solid black;
+}
 
-  /* This following is the Front Display Styles */
+#Story2 {
+  background-image: url("../images/img-story-3.png");
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: 0.5px solid black;
+}
+
+.medium {
+  position: absolute;
+  top: 20px;
+  left: 640px;
+  display: flex;
+  border: 0.5px solid black;
+  width: 300px;
 
 
+}
+
+#Subnews3 {
+  border: 1px solid black;
+}
+
+#Sidenews2 {
+  background-image: url("../images/img-story-1.png");
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.small {
+  position: absolute;
+  top: 20px;
+  left: 950px;
+  display: flex;
+  width: 240px;
+  border: 0.5px solid black;
+}
+
+.Advnews {
+  border: 1px solid black;
 }
